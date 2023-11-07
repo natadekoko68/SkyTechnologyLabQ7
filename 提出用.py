@@ -20,7 +20,7 @@ def compare(oe,encoded_deque,add_char):
                 return encoded_deque
         elif add_char > deque_temp_char:
             return add(encoded_deque,add_char)
-        elif add_char < deque_temp_char:
+        else:
             return encoded_deque
     if oe == 0:
         if add_char == deque_temp_char:
@@ -30,7 +30,7 @@ def compare(oe,encoded_deque,add_char):
                 return encoded_deque
         elif add_char < deque_temp_char:
             return add(encoded_deque,add_char)
-        elif add_char > deque_temp_char:
+        else:
             return encoded_deque
 
 def main(n,string):
