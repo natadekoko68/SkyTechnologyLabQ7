@@ -1,4 +1,4 @@
-from packages.for_process import main
+from packages.process import main
 
 
 if __name__ == "__main__":

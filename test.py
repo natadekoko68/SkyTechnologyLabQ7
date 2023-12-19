@@ -1,4 +1,4 @@
-from packages.for_test import test
+from packages.test import test
 
 if __name__ == "__main__":
     test(iter_num=5)

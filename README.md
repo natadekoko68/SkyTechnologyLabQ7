@@ -1,6 +1,6 @@
 # Q7 README
 ## コードの説明
-main.pyが提出用(for_processを内部に転記)\
+main.pyが提出用(processを内部に転記)\
 test.pyはテスト用
 test関数の引数iter_numを指定してください。(テストケース作成のために遅い処理を入れているので、10弱が良いと思います。)
 
