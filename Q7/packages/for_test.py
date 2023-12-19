@@ -1,4 +1,4 @@
-from main import main
+from Q7.main import main
 from time import time
 import random
 import string
