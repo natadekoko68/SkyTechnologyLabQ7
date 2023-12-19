@@ -35,7 +35,7 @@ def compare(oe, encoded_deque, add_char):
             return encoded_deque
 
 
-def main(n_input, string):
+def process(n_input, string):
     temp = deque()
     temp.append(("", 0))
     temp.append(("", 0))
@@ -43,17 +43,5 @@ def main(n_input, string):
         temp = compare(i % 2, temp, string[i])
     return ''.join(char * count for char, count in temp)
 
-
-n = int(input())
-text = input()
-print(main(n, text))
-
-"""以下テスト"""
-
-# n = 6*10**5
-# text = "xskszy"*10**5
-# import time
-# s = time.time()
-# print(main(n,text))
-# e = time.time()
-# print(e-s)
+def main(n, text):
+    return process(n, text)
